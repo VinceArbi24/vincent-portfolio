@@ -49,7 +49,7 @@ export const projects = [
     type: "video",
     categories: ["video", "advertising"],
     tag: "Real Estate / Promo",
-    tools: ["Premiere Pro", "DaVinci Resolve"],
+    tools: ["CapCut"],
     description:
       "Property walkthrough edited with smooth transitions and text overlays for listing promotion.",
     src: "/videos/real-estate/real-estate-1.mp4",
@@ -60,7 +60,7 @@ export const projects = [
     type: "video",
     categories: ["video", "advertising"],
     tag: "Real Estate / Promo",
-    tools: ["Premiere Pro"],
+    tools: ["CapCut"],
     description:
       "Second property feature focused on pacing and a strong call-to-action close.",
     src: "/videos/real-estate/real-estate-2.mp4",
@@ -104,7 +104,7 @@ export const projects = [
     type: "image",
     categories: ["graphic-design", "social-media"],
     tag: "Social Media Carousel",
-    tools: ["Photoshop", "Illustrator"],
+    tools: ["Canva"],
     description:
       "Multi-slide carousel designed for consistent visual flow and readability while scrolling.",
     src: "/images/carousel/carousel-1.png",
@@ -115,10 +115,10 @@ export const projects = [
     type: "image",
     categories: ["graphic-design", "thumbnails"],
     tag: "Thumbnail Design",
-    tools: ["Photoshop"],
+    tools: ["Canva"],
     description:
       "Attention-grabbing thumbnail set designed for clarity at small sizes and strong click-through.",
-    src: "/images/thumbnails/thumbnail-1.png",
+    src: "/images/thumbnails/abcd.png",
   },
   {
     id: "ads-01",
