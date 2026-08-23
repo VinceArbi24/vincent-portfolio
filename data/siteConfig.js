@@ -10,7 +10,7 @@ export const siteConfig = {
   firstName: "Vincent",
   role: "Graphic Designer / Video Editor",
   tagline:
-    "Hi, I'm Vincent, a graphic designer and video editor focused on creating engaging visual content, short-form videos, social media creatives, advertisements, thumbnails, and branded content.",
+    "Hi, I'm Vincent, a Filipino graphic designer and video editor focused on creating engaging visual content, short-form videos, social media creatives, advertisements, thumbnails, and branded content.",
 
   about: {
     heading: "Vincent Arbitrario",
@@ -28,7 +28,7 @@ export const siteConfig = {
   contact: {
     email: "vince.arbi@gmail.com",
     whatsappNumber: "639950378736", // digits only, used in the wa.me link
-    whatsappDisplay: "+639 950378736", // shown to visitors
+    whatsappDisplay: "+63 995 037 8736", // shown to visitors
     linkedin: "https://www.linkedin.com/in/vincent-arbitrario-54aa09380",
   },
 
