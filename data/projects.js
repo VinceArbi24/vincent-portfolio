@@ -110,7 +110,7 @@ export const projects = [
     src: "/images/carousel/carousel-1.png",
   },
   {
-    id: "youtube-thumbnails-01",
+    id: "abcd",
     title: "YouTube Thumbnails",
     type: "image",
     categories: ["graphic-design", "thumbnails"],
