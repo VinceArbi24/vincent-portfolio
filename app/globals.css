@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: sans-serif;
+  --font-body: sans-serif;
+  --font-mono: monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #f5f4f0;
+  color: #0a0a0a;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #0a0a0a;
+  color: #f5f4f0;
+}
+
+/* Visible focus states for accessibility */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #a53a2c;
+  outline-offset: 3px;
+}
+
+/* Manga panel corner marks — the site's recurring signature device */
+.panel-corners {
+  position: relative;
+}
+.panel-corners::before,
+.panel-corners::after,
+.panel-corners > .corner-tl,
+.panel-corners > .corner-br {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+.panel-corners::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+}
+.panel-corners::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+
+/* Subtle halftone texture, used sparingly on image panels only */
+.halftone-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(10, 10, 10, 0.85) 1px, transparent 1.3px);
+  background-size: 5px 5px;
+  mix-blend-mode: multiply;
+  opacity: 0.14;
+  pointer-events: none;
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.hairline {
+  background-color: #d6d3ca;
+}
+
+/* thin speed-line divider used sparingly between sections */
+.speedlines {
+  background-image: repeating-linear-gradient(
+    100deg,
+    rgba(10, 10, 10, 0.08) 0px,
+    rgba(10, 10, 10, 0.08) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
