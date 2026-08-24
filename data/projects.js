@@ -16,7 +16,7 @@ export const categories = [
   { id: "video", label: "Video" },
   { id: "graphic-design", label: "Graphic Design" },
   { id: "social-media", label: "Social Media" },
-  { id: "thumbnails", label: "Thumbnails" },
+  { id: "abcd", label: "Abcd" },
   { id: "advertising", label: "Advertising" },
 ];
 
